@@ -1,0 +1,154 @@
+
+body{
+    background-color:rgb(233, 219, 202);
+    color: brown;
+    font-family:標楷體, Geneva, Tahoma, sans-serif
+}
+.title{
+    color: white;
+
+    font-size: 3rem;
+    /* 16 pixel=1 rem */
+    background-color:#6c8d57;
+    border-radius: 8px;
+    height: 64px;
+    line-height: 64px;
+    /*       上  右   下   左 */
+    margin: 8px 0px;
+    padding: 12px 0px; 
+    text-align: center;
+}
+.sub-title{
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    background-color:rgb(36, 36, 99);
+    height: 48px;
+    line-height: 48px;
+    margin: 8px 0px;
+    padding: 8px;
+    text-align: left;
+    border-radius: 3px;
+}
+/* #=id */
+#container{
+    margin: 0px auto;
+    width: 90%;
+    text-align: center;
+}
+mark{
+    background-color: chartreuse;
+}
+.text-1{
+    border: 2px black dotted;
+    margin-bottom: 12px;
+    padding: 6px;
+    background-color: rgb(241, 189, 170);
+}
+.text-2{
+    font-size: 2rem;
+    background-color: rgb(255, 255, 0);
+}
+.text-3{
+    text-align: left;
+}
+.good-link ul {
+    text-align: left;
+    list-style-type: circle;
+}
+/* 找到下一個a標籤 */
+.good-link a {
+    text-decoration: none;
+}
+.good-link a:link {
+    color: rgb(66, 10, 104);
+}
+/* class */
+.good-link a:hover {
+    color: aqua;
+}
+#image{
+    background-color: burlywood;
+    padding: 6px;
+    text-align: center;
+}
+/* id */
+#image img{
+    margin-top: 3px;
+    width: 30%;
+    background-color: brown;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+table{
+    width: 90%;
+    /*  auto至中*/
+    margin: 0 auto;
+    height: 250px;
+    margin-top: 12px;
+}
+thead th{
+    background-color: coral;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+tbody tr{
+    background-color: aqua;
+}
+td{
+    color: black;
+}
+tbody td:first-child{
+    background-color: chartreuse;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* inline>head>style.css */
+form{
+    background-color: tomato;
+    /* 內間距 */
+    padding: 24px 0px;
+}
+label,input,textarea{
+    font-size: 20px;
+}
+textarea{
+    margin: 12px;
+}
+input{
+    margin-left: 12px;
+}
+
+input[type="number"]{
+    margin-top: 6px;
+}
+
+.my-button{
+    width: 100px;
+    height: 40px;
+    background-color: chartreuse;
+    border-radius:3px;
+}
+form{
+    height: 80%;
+    width: 60%;
+    margin: 0 auto;
+}
+input{
+    width: 60%;
+}
+.my-button{
+    margin-top: 80px;
+}
+
+@media screen and(max-width:1024px){
+    form{
+        width: 100%;
+    }
+    input{
+        width: 70%;
+    }
+}
